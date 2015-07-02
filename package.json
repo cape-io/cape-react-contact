@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/cape-io/cape-react-contact",
   "peerDependencies": {
-    "react": "^0.13.3",
+    "react": "^0.13.3"
   },
   "dependencies": {
     "formsy-react": "^0.14.1",

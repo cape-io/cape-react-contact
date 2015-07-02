@@ -77,6 +77,7 @@ module.exports = React.createClass({displayName: "exports",
       "validationError": "That doesn't look right.",
       "label": "Your Phone"
     }), React.createElement(Input, {
+      "layout": "elementOnly",
       "name": "url",
       "className": "hidden",
       "validations": "isEmptyString",
