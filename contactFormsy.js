@@ -78,9 +78,10 @@ module.exports = React.createClass({displayName: "exports",
       "label": "Your Phone"
     }), React.createElement(Input, {
       "name": "url",
+      "className": "hidden",
       "validations": "isEmptyString",
       "validationError": "This field is only for spam bots.",
-      "label": "URL"
+      "label": "Leave this URL field empty!"
     }), React.createElement(Input, {
       "name": "subject",
       "label": "Subject",
