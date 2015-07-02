@@ -40,7 +40,7 @@ module.exports = React.createClass
       <Input name="name" validations={maxLength: 75, minLength: 3} validationError="Is this really your name?" label="Your Name" required/>
       <Input name="email" validations="isEmail" validationError="This is not a valid email" label="Your Email" required/>
       <Input name="phone" validations={maxLength: 20} validationError="That doesn't look right." label="Your Phone"/>
-      <Input name="url" className="hidden" validations="isEmptyString" validationError="This field is only for spam bots." label="Leave this URL field empty!" />
+      <Input layout="elementOnly" name="url" className="hidden" validations="isEmptyString" validationError="This field is only for spam bots." label="Leave this URL field empty!" />
       <Input
         name="subject" label="Subject"
         validations={maxLength: 140} validationErrors={maxLength: 'Whooa there, keep the subject under 140 characters please.'}
