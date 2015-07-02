@@ -1,0 +1,26 @@
+{
+  "name": "cape-react-contact",
+  "version": "0.0.1",
+  "description": "CAPE Contact Form",
+  "main": "contactFormsy.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cape-io/cape-react-contact.git"
+  },
+  "keywords": [
+    "CAPE",
+    "contact"
+  ],
+  "author": "Kai Curry <kai@cape.io> (http://www.cape.io/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cape-io/cape-react-contact/issues"
+  },
+  "homepage": "https://github.com/cape-io/cape-react-contact"
+}
